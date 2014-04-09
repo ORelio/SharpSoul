@@ -45,7 +45,7 @@ namespace SharpSoul
                                     case "consoletitle": ConsoleTitle = argValue; break;
                                     case "friends": foreach (string friend in argValue.Split(',')) { Friends.Add(friend); } break;
                                     case "beeponmsg": BeepOnMessage = argValue.ToLower() == "true"; break;
-                                    case "location": Location = argValue(); break;
+                                    case "location": Location = argValue; break;
                                 }
                             }
                         }
